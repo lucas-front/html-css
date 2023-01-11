@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #4CBA3D, #0C3D06 );
+    padding: 40px;
+
+}
+
+header>h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+nav {
+    background-color: #0f3d24;
+}
+
+nav>a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+nav>a:hover {
+    color: white;
+    background-color: lightgreen;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    margin-left: 207px;
+    margin-right: 207px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+main>h1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding-top: 15px;
+    font-family: "Idroid", Helvetica, sans-serif;
+    color: #226240;
+}
+
+main>p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 15px;
+    text-indent: 25px;
+}
+
+main>h2 {
+    margin: 0px;
+    text-align: left;
+    padding: 0px 7px 0px 7px;
+    font-family: "Idroid", Helvetica, sans-serif;
+    color: #226240;
+    background-image: linear-gradient(to right, lightgreen, white);
+    margin-left: 20px;
+}
+
+#destaque {
+    color:green;
+}
+
+.link {
+    color: green;
+    text-decoration: none;
+}
+
+aside {
+    background-color: #C5EBD6;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+aside>ul{
+    text-align: left;
+    list-style-type: symbols('&#10003;');
+}
+
+aside>p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+aside>h1 {
+    text-align: left;
+    padding-left: 20px;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1A5C38;
+    color: white;
+    padding: 5px;
+}
